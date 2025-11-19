@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cheat Sheet - Fondo Familiar Blanco Abril</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background-color: #f8f9fa;
+      color: #333;
+      margin: 0;
+      padding: 20px;
+      line-height: 1.6;
+    }
+
+    h1 {
+      color: #005f73;
+
+      text-align: center;
+    }
+
+    h2 {
+      color: #0a9396;
+      border-bottom: 2px solid #94d2bd;
+      padding-bottom: 5px;
+    }
+
+    pre {
+      background: #e9ecef;
+      padding: 10px;
+      border-radius: 8px;
+      overflow-x: auto;
+    }
+
+    code {
+      color: #d63384;
+      font-weight: bold;
+    }
+
+    section {
+      background: white;
+      padding: 15px;
+      margin: 15px 0;
+      border-radius: 10px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    }
+
+    a {
+      color: #0077b6;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .highlight {
+      background: #d8f3dc;
+      padding: 2px 5px;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>💻Cheat Sheet - Fondo Familiar Blanco Abril&#174;</h1>
+  <p style="text-align:center;">Guía para crear tu app de cuentas, préstamos, pagos y ahorros. &#128176;</p>
+
+  <section>
+    <h2>1️⃣ Estructura básica HTML</h2>
+    <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="es"&gt;
+&lt;head&gt;
+  &lt;meta charset="UTF-8"&gt;
+  &lt;title&gt;Mi App de Finanzas&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;Bienvenido a tu cuenta&lt;/h1&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+  </section>
+
+  <section>
+    <h2>2️⃣ Formularios (Registro / Préstamos / Pagos)</h2>
+    <pre><code>&lt;form action="procesar.html" method="post"&gt;
+  &lt;label&gt;Nombre:&lt;/label&gt;
+  &lt;input type="text" name="nombre"&gt;&lt;br&gt;&lt;br&gt;
+
+  &lt;label&gt;Monto del préstamo:&lt;/label&gt;
+  &lt;input type="number" name="monto"&gt;&lt;br&gt;&lt;br&gt;
+
+  &lt;label&gt;Tipo de operación:&lt;/label&gt;
+  &lt;select&gt;
+    &lt;option&gt;Ahorro&lt;/option&gt;
+    &lt;option&gt;Préstamo&lt;/option&gt;
+    &lt;option&gt;Pago&lt;/option&gt;
+  &lt;/select&gt;&lt;br&gt;&lt;br&gt;
+
+  &lt;button type="submit"&gt;Enviar&lt;/button&gt;
+&lt;/form&gt;
+</code></pre>
+  </section>
+
+  <section>
+    <h2>3️⃣ Tablas (Resumen de Movimientos)</h2>
+    <pre><code>&lt;table border="1" cellpadding="5"&gt;
+  &lt;tr&gt;
+    &lt;th&gt;Fecha&lt;/th&gt;
+    &lt;th&gt;Descripción&lt;/th&gt;
+    &lt;th&gt;Monto&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;2025-10-16&lt;/td&gt;
+    &lt;td&gt;Pago préstamo&lt;/td&gt;
+    &lt;td&gt;$200.000&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+</code></pre>
+  </section>
+
+  <section>
+    <h2>4️⃣ Estilos CSS básicos</h2>
+    <pre><code>body {
+  background-color: #005f67
+  color: #eef3f5;
+}
+
+button {
+  background-color: #00b8ad;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #0077b6;
+}
+</code></pre>
+  </section>
+
+  <section>
+    <h2>5️⃣ Flexbox (organización visual)</h2>
+    <pre><code>.contenedor {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.caja {
+  background: #94d2bd;
+  padding: 20px;
+  border-radius: 10px;
+  width: 30%;
+  text-align: center;
+}
+</code></pre>
+  </section>
+
+  <section>
+    <h2>6️⃣ Enlaces útiles</h2>
+    <ul>
+      <li><a href="https://developer.mozilla.org/es/docs/Web/HTML" target="_blank">Documentación HTML</a></li>
+      <li><a href="https://developer.mozilla.org/es/docs/Web/CSS" target="_blank">Documentación CSS</a></li>
+      <li><a href="https://colorhunt.co/" target="_blank">Paletas de colores</a></li>
+    </ul>
+  </section>
+
+</body>
+</html>
